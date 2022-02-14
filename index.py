@@ -16,6 +16,6 @@ def get_stdin():
 
 if __name__ == "__main__":
     st = get_stdin()
-    ret = handler.handle(st)
+    ret = handler.handle(st.split())
     if ret != None:
         print(ret)
